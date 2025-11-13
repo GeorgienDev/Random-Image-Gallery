@@ -1,21 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "Random Image Gallery",
-  description: "Random Image Gallery",
-};
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Mynav from "./navbar/navbar";
+import { metadata as Sitemetadata} from "./metadata"; 
+import Footer from "./footer/footer";
+export const metadata = Sitemetadata; 
 
 export default function RootLayout({
   children,
@@ -24,10 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body>
+        <Mynav />
         {children}
+        <Footer/>
       </body>
     </html>
   );
