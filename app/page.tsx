@@ -1,10 +1,13 @@
-import Image from "next/image";
-import Gallery from "./gallery/gallery";
+import React from "react";
+import Gallery from "./gallery/gallery"; // Verify this path is correct
 
-export default function Home() {
+const Home = () => {
   return (
-  <>
-  <Gallery/>
-  </>
+    <div>
+      <h1>Welcome to My Gallery</h1>
+      <Gallery />
+    </div>
   );
-}
+};
+
+export default Home;
