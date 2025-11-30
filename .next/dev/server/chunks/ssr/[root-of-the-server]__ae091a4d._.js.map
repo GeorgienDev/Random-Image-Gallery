@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/USER/Desktop/Random-Image-Gallery/app/navbar/navbar.tsx"],"sourcesContent":["\"use client\"\r\nimport 'bootstrap/dist/css/bootstrap.min.css';\r\nimport { useEffect } from 'react';\r\n\r\nexport default function Navbar(){\r\n     useEffect(() => {\r\n    require('bootstrap/dist/js/bootstrap.bundle.min.js');\r\n  }, []);\r\n    return(\r\n        \r\n  <nav className=\"navbar navbar-expand-lg bg-dark\">\r\n  <div className=\"container-fluid bg-dark\">\r\n    <a className=\"navbar-brand text-white p-3\" style={{fontSize: '25px', fontFamily: 'BBH Sans Bartle, sans-serif',  fontWeight: 400, fontStyle: 'normal'}} href=\"#\">Random Image Gallery</a>\r\n  </div>\r\n</nav>\r\n    \r\n    );\r\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;;AAIe,SAAS;IACnB,IAAA,kNAAS,EAAC;;IAEb,GAAG,EAAE;IACH,qBAEF,8OAAC;QAAI,WAAU;kBACf,cAAA,8OAAC;YAAI,WAAU;sBACb,cAAA,8OAAC;gBAAE,WAAU;gBAA8B,OAAO;oBAAC,UAAU;oBAAQ,YAAY;oBAAgC,YAAY;oBAAK,WAAW;gBAAQ;gBAAG,MAAK;0BAAI;;;;;;;;;;;;;;;;AAKrK"}}]
-}

@@ -1,4 +1,0 @@
-:HL["/Random-Image-Gallery/_next/static/chunks/6c5817ccb6b51b2f.css","style"]
-:HL["/Random-Image-Gallery/_next/static/chunks/d43ab978ac5b76ce.css","style"]
-:HL["https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css","style"]
-0:{"buildId":"KZntozdp1u6NOY1nDUUw_","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
