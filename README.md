@@ -19,8 +19,7 @@ Check out the  [live demo of the project](https://georgiendev.github.io/Random-I
 
 ## Technologies Used
 
-- **React**: For building the user interface.
-- **Next.js**: For server-side rendering and routing.
+- **React**/**Vite**: For building the user interface.
 - **TypeScript**: For static typing and better development experience.
 - **Bootstrap**: For responsive design and layout styling.
 
