@@ -3,7 +3,7 @@
 
 ## Overview
 
-**Random Image Gallery** is a web application built with **React**, **Next.js**, and **TypeScript** that allows users to generate and display random images. This project utilizes my custom API from another repository, which serves random images.
+**Random Image Gallery** is a web application built with **React**, **Vite**, and **TypeScript** that allows users to generate and display random images. This project utilizes my custom API from another repository, which serves random images.
 
 ## Preview
 
